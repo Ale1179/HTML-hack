@@ -1,0 +1,42 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.blue {
+    background-color: #9BBAD3;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.red {
+    background-color: #A52A41;
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.red.small {
+    width: 50%;
+}

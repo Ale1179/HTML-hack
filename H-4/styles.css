@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.promo-header {
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+.promo-header .line {
+    width: 100px;
+    height: 5px;
+    background-color: #000;
+    margin: 0 auto 10px auto;
+}
+
+.promo-header h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.promo-header h1 {
+    font-size: 2.5em;
+    color: #b28a43;
+    margin: 10px 0;
+}
+
+.promo-header h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promo-header p {
+    color: #666;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.product {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.product .background-lines {
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.product .background-lines .line {
+    width: 50px;
+    height: 15px;
+    background-color: #e0a42d;
+}
+
+.product .image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.hamburguesa .image {
+    background-image: url('img3.jpg');
+}
+
+.pizza .image {
+    background-image: url('img.jpg');
+}
+
+.tacos .image {
+    background-image: url('img2.jpg');
+}
+
+.description {
+    font-size: 1em;
+    color: #333;
+}
+
+.promo-footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.promo-footer h2 {
+    font-size: 1.5em;
+    color: #b28a43;
+    margin-bottom: 10px;
+}
+
+.promo-footer p {
+    color: #666;
+}

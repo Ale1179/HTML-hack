@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 2em;
+    color: green;
+}
+
+.header-right h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: black;
+}
+
+.main-banner {
+    background: url('img5.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.main-banner .banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+}
+
+.main-banner h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.main-banner p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 30%;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    color: green;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 1em;
+}

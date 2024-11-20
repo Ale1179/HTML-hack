@@ -1,0 +1,51 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.container {
+    width: 80%;
+}
+
+
+.header {
+    background-color: #7BA6BA; 
+    height: 100px;
+    width: 100%;
+}
+
+.block {
+    background-color: #A12A4A; 
+    margin-top: 20px;
+}
+
+.large {
+    height: 200px;
+    width: 100%;
+}
+
+.medium {
+    height: 80px;
+    width: 60%;
+}
+
+.small {
+    height: 60px;
+    width: 80%;
+}
